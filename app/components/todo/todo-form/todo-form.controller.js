@@ -1,6 +1,6 @@
 class TodoFormController {
   constructor(EventEmitter) {
-      this.EventEmitter = EventEmitter;
+    this.EventEmitter = EventEmitter;
   }
   $onChanges(changes) {
     if (changes.todo) {

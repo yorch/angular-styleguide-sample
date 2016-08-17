@@ -1,4 +1,3 @@
-/* ----- todo/todo-form/index.js ----- */
 import angular from 'angular';
 import TodoFormComponent from './todo-form.component';
 

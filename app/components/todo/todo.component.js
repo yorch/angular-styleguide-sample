@@ -1,6 +1,6 @@
 import controller from './todo.controller';
 
-const TodoComponent = { 
+const TodoComponent = {
   bindings: {
     todoData: '<'
   },

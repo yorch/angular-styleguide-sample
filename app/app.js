@@ -8,12 +8,12 @@ import Components from './components';
 import Common from './common';
 
 const app = angular
-    .module('app', [
-        Components,
-        Common,
-        uiRouter
-    ])
-    .component('app', AppComponent)
-    .name;
+  .module('app', [
+    Components,
+    Common,
+    uiRouter
+  ])
+  .component('app', AppComponent)
+  .name;
 
 export default app;
